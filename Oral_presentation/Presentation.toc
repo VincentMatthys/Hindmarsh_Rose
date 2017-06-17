@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {2}{Pour $C=2$}{4}{0}{1}
+\beamer@subsectionintoc {2}{1}{Recherche des points d'\IeC {\'e}quilibre}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{Stabilit\IeC {\'e} des points}{7}{0}{1}
+\beamer@sectionintoc {3}{Pour $C=1$}{40}{0}{2}
+\beamer@sectionintoc {4}{Passage en 3 dimensions : bursting}{67}{0}{3}
+\beamer@subsectionintoc {4}{1}{Obtention du bursting}{69}{0}{3}
+\beamer@subsectionintoc {4}{2}{Pour $c = 2$ : Bursting fold/Hopf}{74}{0}{3}
+\beamer@subsectionintoc {4}{3}{Pour $c = 1$ : Bursting Square-Wave}{78}{0}{3}
+\beamer@subsectionintoc {4}{4}{Entre $c = 1$ et $c = 2$}{86}{0}{3}
