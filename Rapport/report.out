@@ -1,4 +1,4 @@
-\BOOKMARK [1][-]{section.1}{Fichier \351quations}{}% 1
+\BOOKMARK [1][-]{section.1}{Etude th\351orique}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Recherche des nullclines}{section.1}% 2
 \BOOKMARK [3][-]{subsubsection.1.1.1}{R\351solution par la m\351thode de Cardan}{subsection.1.1}% 3
 \BOOKMARK [4][-]{paragraph.1.1.1.1}{1 > 0}{subsubsection.1.1.1}% 4
@@ -14,12 +14,27 @@
 \BOOKMARK [4][-]{figure.caption.7}{Interpr\351tation avec le diagramme de bifurcation Lg}{subsubsection.1.2.4}% 14
 \BOOKMARK [3][-]{subsubsection.1.2.5}{Condition alg\351brique pour une bifurcation de Hopf}{subsection.1.2}% 15
 \BOOKMARK [3][-]{subsubsection.1.2.6}{R\351sum\351 des stabilit\351s et des bifurcations}{subsection.1.2}% 16
-\BOOKMARK [2][-]{subsection.1.3}{Quelques simulations pour Iap entre -2 et 10}{section.1}% 17
-\BOOKMARK [3][-]{subsubsection.1.3.1}{Iap entre -2 et -1}{subsection.1.3}% 18
-\BOOKMARK [3][-]{subsubsection.1.3.2}{\300 Iap=-1}{subsection.1.3}% 19
-\BOOKMARK [3][-]{subsubsection.1.3.3}{Iap entre -1 et -0.5672}{subsection.1.3}% 20
-\BOOKMARK [3][-]{subsubsection.1.3.4}{Iap entre -0.5672 et 0.185}{subsection.1.3}% 21
-\BOOKMARK [3][-]{subsubsection.1.3.5}{\300 Iap=0.185}{subsection.1.3}% 22
-\BOOKMARK [3][-]{subsubsection.1.3.6}{Iap entre 0.185 et 7.9}{subsection.1.3}% 23
-\BOOKMARK [3][-]{subsubsection.1.3.7}{Iap entre 7.9 et 10}{subsection.1.3}% 24
-\BOOKMARK [2][-]{subsection.1.4}{Pour r\351sumer}{section.1}% 25
+\BOOKMARK [1][-]{section.2}{Simulations num\351riques}{}% 17
+\BOOKMARK [2][-]{subsection.2.1}{Pour c=2}{section.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Simulations pour Iap entre -2 et 10}{subsection.2.1}% 19
+\BOOKMARK [4][-]{paragraph.2.1.1.1}{Iap entre -2 et -1}{subsubsection.2.1.1}% 20
+\BOOKMARK [4][-]{paragraph.2.1.1.2}{\300 Iap=-1}{subsubsection.2.1.1}% 21
+\BOOKMARK [4][-]{paragraph.2.1.1.3}{Iap entre -1 et -0.5672}{subsubsection.2.1.1}% 22
+\BOOKMARK [4][-]{paragraph.2.1.1.4}{Iap entre -0.5672 et 0.185}{subsubsection.2.1.1}% 23
+\BOOKMARK [4][-]{paragraph.2.1.1.5}{\300 Iap=0.185}{subsubsection.2.1.1}% 24
+\BOOKMARK [4][-]{paragraph.2.1.1.6}{Iap entre 0.185 et 7.9}{subsubsection.2.1.1}% 25
+\BOOKMARK [4][-]{paragraph.2.1.1.7}{Iap entre 7.9001 et 10}{subsubsection.2.1.1}% 26
+\BOOKMARK [3][-]{subsubsection.2.1.2}{R\351sum\351 pour c=2}{subsection.2.1}% 27
+\BOOKMARK [2][-]{subsection.2.2}{Pour c=1}{section.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Simulations num\351riques pour Iap entre -2 et 10}{subsection.2.2}% 29
+\BOOKMARK [4][-]{figure.caption.22}{Pour Iap entre -2 et -1}{subsubsection.2.2.1}% 30
+\BOOKMARK [4][-]{figure.caption.23}{\300 Iap=-1}{subsubsection.2.2.1}% 31
+\BOOKMARK [4][-]{figure.caption.24}{Pour Iap entre -1 et -0.9265}{subsubsection.2.2.1}% 32
+\BOOKMARK [4][-]{figure.caption.25}{Pour Iap entre -0.9265 et -0.8161}{subsubsection.2.2.1}% 33
+\BOOKMARK [4][-]{paragraph.2.2.1.5}{\300 Iap -0.8161}{subsubsection.2.2.1}% 34
+\BOOKMARK [4][-]{figure.caption.27}{Pour Iap entre -0.8161 et -0.08560}{subsubsection.2.2.1}% 35
+\BOOKMARK [4][-]{paragraph.2.2.1.7}{\300 Iap -0.08560}{subsubsection.2.2.1}% 36
+\BOOKMARK [4][-]{figure.caption.29}{Pour Iap entre -0.08560 et 0.1852}{subsubsection.2.2.1}% 37
+\BOOKMARK [4][-]{figure.caption.30}{\300 Iap 0.1852}{subsubsection.2.2.1}% 38
+\BOOKMARK [4][-]{figure.caption.31}{Pour Iap entre 0.1852 et 10}{subsubsection.2.2.1}% 39
+\BOOKMARK [3][-]{subsubsection.2.2.2}{R\351sum\351 pour c=1}{subsection.2.2}% 40

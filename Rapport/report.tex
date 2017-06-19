@@ -21,7 +21,19 @@
 
 \usepackage{array}
 \usepackage{dsfont}% indicatrice : \mathds{1}
-\usepackage[dvipsnames]{xcolor}
+%\usepackage[dvipsnames]{xcolor}
+
+% ------------------------- Bilbiographie --------------------------------------
+\usepackage[backend=biber]{biblatex}
+\addbibresource{biblio.bib}
+% ------------------------------------------------------------------------------
+
+% ------------------------- Color table ----------------------------------------
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\definecolor{maroon}{cmyk}{0,0.87,0.68,0.32}
+% ------------------------------------------------------------------------------
+
 \setcounter{tocdepth}{4} %Count paragraph
 \setcounter{secnumdepth}{4} %Count paragraph
 \usepackage{float}
@@ -83,9 +95,7 @@ Vincent Matthys, Maureen Muscat et Mariène Wan
 
 \newpage
 
-\section{Fichier équations}
-
-
+\section{Etude théorique}
 
 
 \begin{equation}
@@ -435,12 +445,12 @@ Nature & foyer ou noeud stable  & col & foyer ou noeud stable & foyer ou noeud i
 \begin{center}
 \includegraphics[width = 1.0\textwidth]{bif_20.png}
 \end{center}
-\caption{Diagramme de bifurcation obtenu pour $c=2$ à l'aide de \texttt{XPP-aut} par continuation. Les familles de points stationnaires stables sont représentées en trait continu rouge, les familles de points stationnaires instables en trait continu noir, et les familles de cycles limites stables en pointillés vert}
+\caption{Diagramme de bifurcation $v_0=f(I_{ap})$ obtenu pour $c=2$ à l'aide de \texttt{XPP-aut} par continuation. Les familles de points stationnaires stables sont représentées en trait continu rouge, les familles de points stationnaires instables en trait continu noir, et les familles de cycles limites stables en pointillés vert}
 \label{fig_res_c_2}
 \end{figure}
 
 
-\textbf{Pour $c=2$}, il y a deux bifurcations de Hopf en $v = 1 - \frac{\sqrt{3}}{3}$ et en $v = 1 + \frac{\sqrt{3}}{3}$. Il y a également deux bifurcation pli en $v = 0$ et $v = -\frac{4}{3}$.
+\textbf{Pour $c=2$}, il y a deux bifurcations de Hopf en $v_0 = 1 - \frac{\sqrt{3}}{3}$ et en $v_0 = 1 + \frac{\sqrt{3}}{3}$. Il y a également deux bifurcation pli en $v_0 = 0$ et $v_0 = -\frac{4}{3}$.
 
 \newpage
 
@@ -463,11 +473,11 @@ Nature & foyer ou noeud stable  & col & foyer ou noeud stable & foyer ou noeud i
 \begin{center}
 \includegraphics[width = 1.0\textwidth]{bif_10.png}
 \end{center}
-\caption{Diagramme de bifurcation obtenu pour $c=1$ à l'aide de \texttt{XPP-aut} par continuation. Les familles de points stationnaires stables sont représentées en trait continu rouge, les familles de points stationnaires instables en trait continu noir, et les familles de cycles limites stables en pointillés vert. Les points bleus correspondent aux points pour lesquels la période des solutions attirés par les cylces limites stables tend vers l'infini}
+\caption{Diagramme de bifurcation $v_0=f(I_{ap})$ obtenu pour $c=1$ à l'aide de \texttt{XPP-aut} par continuation. Les familles de points stationnaires stables sont représentées en trait continu rouge, les familles de points stationnaires instables en trait continu noir, et les familles de cycles limites stables en pointillés vert. Les points bleus correspondent aux points pour lesquels la période des solutions attirés par les cylces limites stables tend vers l'infini}
 \label{fig_res_c_1}
 \end{figure}
 
-\textbf{Pour $c=1$}, il y a deux bifurcations de Hopf en $v = 1 - \sqrt{\frac{2}{3}}$ et en $v = 1 + \sqrt{\frac{2}{3}}$. Il y a également deux bifurcation pli en $v = 0$ et $v = -\frac{4}{3}$.
+\textbf{Pour $c=1$}, il y a deux bifurcations de Hopf en $v_0 = 1 - \sqrt{\frac{2}{3}}$ et en $v_0 = 1 + \sqrt{\frac{2}{3}}$. Il y a également deux bifurcation pli en $v_0 = 0$ et $v_0 = -\frac{4}{3}$.
 
 
 
@@ -479,14 +489,15 @@ Nature & foyer ou noeud stable  & col & foyer ou noeud stable & foyer ou noeud i
 
 \newpage
 
+\section{Simulations numériques}
+	\subsection{Pour $c=2$}
+		\subsubsection{Simulations pour $I_{ap}$ entre -2 et 10}
 
-\subsection{Quelques simulations pour $I_{ap}$ entre -2 et 10}
-
-Comme nous l'avons précédemment vu le nombre de point stationnaire et leur stabilité dépend de $I_{ap}$. Nous avons réalisé nos simulations à l'aide de \texttt{XPP-aut}.
+Comme nous l'avons précédemment vu le nombre de point stationnaire et leur stabilité dépend de $I_{ap}$. Nous avons réalisé nos simulations à l'aide de \texttt{XPP-aut}, dans lesquelles une variation de $I_{ap}$ permet de parcourir tout le diagramme de bifurcation, comme le montre l'équation \ref{Stat}.
 
 
 
-\subsubsection{$I_{ap}$ entre -2 et -1}
+\paragraph{$I_{ap}$ entre -2 et -1}
 Il n'y a qu'un point d'équilibre : un noeud stable.
 
 \begin{figure}[H]
@@ -497,31 +508,29 @@ Il n'y a qu'un point d'équilibre : un noeud stable.
 \end{figure}
 
 
-\subsubsection{À $I_{ap}=-1$}
+\paragraph{À $I_{ap}=-1$}
 Bifurcation pli, apparition d'un nouveau point d'équilibre.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[ width = 0.7\textwidth]{I_003.png}
 \end{center}
-\caption{Plan de phase pour $I=-1$, deux points stationnaires}
+\caption{Plan de phase $w=f(v)$ pour $I=-1$, deux points stationnaires}
 \end{figure}
 
-\newpage
-
-\subsubsection{$I_{ap}$ entre -1 et -0.5672}
-3 points stationnaires : un noeud stable, un col et un autre noeud stable qui devient ensuite un foyer stable.
+\paragraph{$I_{ap}$ entre -1 et -0.5672}
+3 points stationnaires : un noeud stable, un col et un autre noeud stable qui devient ensuite un foyer stable. La varitété instable du col sépare les deux bassins d'attraction de chaque noeud.
 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[ width = 0.5\textwidth]{I_004.png}
 \end{center}
-\caption{Plan de phase, trois points stationnaires, 2 sont stables et 1 col.}
+\caption{Plan de phase $w=f(v)$, trois points stationnaires : 2 stables et 1 col.}
 \end{figure}
 
-\subsubsection{$I_{ap}$ entre -0.5672 et 0.185}
-Bifurcation de Hopf, le foyer stable devient instable et un cycle limite stable apparaît. Quand $I_{ap}$ augmente, le cycle limite stable grossi.
-3 points stationnaires
+\paragraph{$I_{ap}$ entre -0.5672 et 0.185}
+Bifurcation de Hopf : le foyer stable devient instable et un cycle limite stable apparaît. Quand $I_{ap}$ augmente, le cycle limite stable grossit.
+On compte 3 points stationnaires.
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{ p{0.5\textwidth}  p{0.5\textwidth} }
@@ -529,20 +538,20 @@ Bifurcation de Hopf, le foyer stable devient instable et un cycle limite stable 
 \includegraphics[ width = 0.5\textwidth]{I_008.png}
 \end{tabular}
 \end{center}
-\caption{Plan de phase, trois points stationnaires et un cycle limite.}
+\caption{Plan de phase $w=f(v)$, trois points stationnaires et un cycle limite stable.}
 \end{figure}
 
-\subsubsection{À $I_{ap}=0.185$}
+\paragraph{À $I_{ap}=0.185$}
 Bifurcation pli, le col et le noeud stable se rejoingne pour ne former qu'un seul point, puis disparaissent.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[ width = 0.5\textwidth]{I_011.png}
 \end{center}
-\caption{Plan de phase, deux points stationnaires et un cycle limite.}
+\caption{Plan de phase $w=f(v)$, deux points stationnaires et un cycle limite stable.}
 \end{figure}
 
-\subsubsection{$I_{ap}$ entre 0.185 et 7.9}
-Il n'y a plus qu'un point stationnaire : le foyer instable. Le cycle limite grossi puis diminue.
+\paragraph{$I_{ap}$ entre 0.185 et 7.9}
+Il n'y a plus qu'un point stationnaire : le foyer instable. Le cycle limite grossit puis diminue.
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{ p{0.5\textwidth}  p{0.5\textwidth} }
@@ -552,58 +561,61 @@ Il n'y a plus qu'un point stationnaire : le foyer instable. Le cycle limite gros
 \includegraphics[ width = 0.5\textwidth]{I_016.png} \\
 \end{tabular}
 \end{center}
-\caption{Plan de phase, un foyer instable et un cycle limite stable dont la taille augmente puis diminue.}
+\caption{Plan de phase $w=f(v)$, un foyer instable et un cycle limite stable dont la taille augmente puis diminue.}
 \end{figure}
 
-\subsubsection{$I_{ap}$ entre 7.9 et 10}
-Bifurcation de Hopf, le cycle limite stable devient très petit et disparaît. Le foyer instable devient un foyer stable.
+\paragraph{$I_{ap}$ entre $7.9001$ et $10$}
+Bifurcation de Hopf, le cycle limite stable disparaît. Le foyer instable devient un foyer stable.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[ width = 0.7\textwidth]{I_018.png}
 \end{center}
-\caption{Plan de phase, un foyer stable.}
+\caption{Plan de phase $w=f(v)$, un foyer stable.}
 \end{figure}
-
-
-
-
-
 
 \newpage
 
 
-\subsection{Pour résumer}
+\subsubsection{Résumé pour $c=2$}
 
 
-
-
-
-\begin{tabular}{|C{4.5cm} | C{2.2cm} | c  |}
+\begin{tabular}{|C{4.5cm} | C{2.2cm} | C{8cm}  |}
 \hline
+\rowcolor{maroon}
 Valeur de $I_{ap}$ & Nombre de points stat & Caractérisation des points \\
-\hline
+\rowcolor{maroon!10}
 $I_{ap} \in [-2, -1[$ & 1 & noeud stable \\
-\multicolumn{3}{|c|}{\textcolor{red}{\textbf{Bifurcation pli}}} \\
-$I_{ap} = -1 $ & 2 & noeud stable et \textbf{col-noeud} \\\hline
-$I_{ap} \in [-1, -0.988[$ & 3 & noeud stable et \textbf{col et noeud stable} \\\hline
-$I_{ap} \in [-0.988, -0.5672[$ & 3 & noeud stable et col et \textbf{foyer stable} \\
-\multicolumn{3}{|c|}{\textcolor{Orange}{\textbf{Bifurcation Hopf}}} \\
-$I_{ap} \in [-0.5672, 5/27[$ & 3 & noeud stable et col et \textbf{foyer instable et cycle limite} \\\hline
-$I_{ap} = 5/27 $ & 2 & \textbf{col-noeud} et foyer instable et cycle limite\\
-\multicolumn{3}{|c|}{\textcolor{red}{\textbf{Bifurcation pli}}} \\
-$I_{ap} \in [5/27, 7.90[$ & 1 &  foyer instable et cycle limite \\
-\multicolumn{3}{|c|}{\textcolor{Orange}{\textbf{Bifurcation Hopf}}} \\
-$I_{ap} \in [7.90, 10[$ & 1 &   foyer stable \\
-\hline
+\rowcolor{maroon!50}
+$I_{ap} = -1$ & 2 & \textcolor{white}{\textbf{Bifurcation pli}} \newline noeud stable et \textbf{col-noeud} \\
+\rowcolor{maroon!10}
+$I_{ap} \in [-1, -0.9880[$ & 3 & noeud stable et \textbf{col} et \textbf{noeud stable} \\\hline
+\rowcolor{maroon!10}
+$I_{ap} \in [-0.9880, -0.5672[$ & 3 & noeud stable et col et \textbf{foyer stable} \\
+\rowcolor{maroon!50}
+$I_{ap} \approx -0.5672$ &
+\multicolumn{2}{c|}{\textcolor{white}{\textbf{Bifurcation Hopf}}} \\
+\rowcolor{maroon!10}
+$I_{ap} \in ]-0.5672, 5/27[$ & 3 & noeud stable et col et \textbf{foyer instable et cycle limite stable} \\\hline
+\rowcolor{maroon!50}
+$I_{ap} = 5/27$ & 2 & \textcolor{white}{\textbf{Bifurcation pli}} \newline foyer instable, cycle limite stable et \textbf{col-noeud} \\
+\rowcolor{maroon!10}
+$I_{ap} \in ]5/27, 7.9001[$ & 1 &  foyer instable et cycle limite stable\\
+\rowcolor{maroon!50}
+$I_{ap} \approx 7.9001$ &
+\multicolumn{2}{c|}{\textcolor{white}{\textbf{Bifurcation Hopf}}} \\
+\rowcolor{maroon!10}
+$I_{ap} \in ]7.9001, 10[$ & 1 &   foyer stable \\\hline
 \end{tabular}
 \vspace*{0,3cm}
 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[ width = 0.7\textwidth]{bif4.png}
+	\begin{tabular}{ p{0.5\textwidth}  p{0.5\textwidth} }
+		\includegraphics[ width = 0.5\textwidth]{bif4.png} & \includegraphics[width = 0.5\textwidth]{bif_20.png}
+	\end{tabular}
 \end{center}
-\caption{Diagramme de bifurcation (sans l'enveloppe du cycle limite).}
+\caption{A gauche : diagramme de bifurcation théorique (la famille de cycle limite n'est pas représentée). A droite : diagramme de bifurcation obtenu par continuation avec \texttt{XXP-aut}}
 \end{figure}
 
 
@@ -611,11 +623,194 @@ $I_{ap} \in [7.90, 10[$ & 1 &   foyer stable \\
 
 Le système possède des régions de \textbf{bistabilité} :
 \begin{itemize}
-\item Pour $I_{ap} \in ]-1, -0,567[$ avec 2 points stables
-\item Pour  $I_{ap} \in ] -0,567, 5/27[$ avec 1 point stable et un cycle limite stable
-
+\item Pour $I_{ap} \in ]-1, -0,5672[$ : deux famille de points stationnaires stables co-existent.
+\item Pour  $I_{ap} \in ] -0,5672, 5/27[$ une famille de points stationnaires stables co-existe avec une famille de cycle limite stable
 \end{itemize}
 C'est à dire, il y a bi-stabilité entre les deux bifurcations pli.
 
+
+\newpage
+\subsection{Pour $c=1$}
+
+
+Les bifurcations plis observées pour $c=2$ restent inchangées mais les bifurcations de Hopf s'éloignent l'une de l'autre (que ce soit par rapport à $v$ ou $I_{ap}$). Contrairement à $c = 2$, il y a deux bifurcations homoclines (pour $I_{ap} = -0.8161$ et $I_{ap} = -0.08560$), faisant disparaître puis réapparaître le cycle limite stable.
+
+\subsubsection{Simulations numériques pour $I_{ap}$ entre $-2$ et $10$}
+
+\paragraph{Pour $I_{ap}$ entre -2 et -1}
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[ width = 0.7\textwidth]{3I-1_15.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -1.15$ : 1 noeud stable}
+\end{figure}
+
+\paragraph{À $I_{ap}=-1$}
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[ width = 0.7\textwidth]{I-1.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -1$ : 1 noeud stable et apparition d'un col-noeud}
+\end{figure}
+
+
+\paragraph{Pour $I_{ap}$ entre -1 et -0.9265}
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{p{0.5\textwidth}  p{0.5\textwidth}}
+\includegraphics[ width = 0.5\textwidth]{6I-0_9971.png} &
+\includegraphics[ width = 0.5\textwidth]{6I-0_9971Bis.png} \\
+\includegraphics[ width = 0.5\textwidth]{I-0_94.png} &
+\includegraphics[ width = 0.5\textwidth]{I-0_94Bis.png} \\
+\end{tabular}
+\end{center}
+\caption{Plan de phase $w=f(v)$}
+\end{figure}
+
+
+\paragraph{Pour $I_{ap}$ entre -0.9265 et -0.8161}
+
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[ width = 0.7\textwidth]{I8-0_82.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.82$ : 1 noeud stable, un col, un foyer instable et un cycle limite stable}
+\end{figure}
+
+
+\paragraph{À $I_{ap} \approx -0.8161$}
+
+La variété instable du col rejoint la variété stable
+
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{p{0.5\textwidth}  p{0.5\textwidth}}
+\includegraphics[ width = 0.5\textwidth]{I-0_816Bis.png} &
+\includegraphics[ width = 0.5\textwidth]{I-0_816Ter.png}
+\end{tabular}
+\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.816$}
+\end{figure}
+
+\paragraph{Pour $I_{ap}$ entre -0.8161 et -0.08560}
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[ width = 0.7\textwidth]{I-0_5.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.5$ : 1 noeud stable, un col, et un foyer instable}
+\end{figure}
+
+\paragraph{À $I_{ap} \approx -0.08560$}
+La variété instable du col rejoint la variété stable.
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width = 0.7\textwidth]{I-0_08.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.08$ : 1 noeud stable, un col, et un foyer instable}
+\end{figure}
+
+\paragraph{Pour $I_{ap}$ entre -0.08560 et 0.1852}
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width = 0.7\textwidth]{I0.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = 0$ : 1 noeud stable, un col, un foyer instable et un cycle limite stable}
+\end{figure}
+
+\paragraph{À $I_{ap} \approx 0.1852$}
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width = 0.7\textwidth]{I0.png}
+	\end{center}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = 0$ : 1 noeud stable, un col, un foyer instable et un cycle limite stable}
+\end{figure}
+
+\paragraph{Pour $I_{ap}$ entre 0.1852 et 10}
+\begin{figure}[H]
+\begin{center}
+\begin{tabular}{p{0.5\textwidth}  p{0.5\textwidth}}
+\includegraphics[ width = 0.5\textwidth]{14I0_5.png} &
+\includegraphics[ width = 0.5\textwidth]{16I2.png} \\
+\includegraphics[ width = 0.5\textwidth]{18I5_5.png} &
+\includegraphics[ width = 0.5\textwidth]{19I10.png} \\
+\end{tabular}
+\end{center}
+\caption{Plan de phase $w=f(v)$}
+\end{figure}
+
+
+
+Pour $I_{ap} = -0.817$, on peut voir dans la figure ci-dessous, à gauche, que les variétés stables et instable du col se superposent, on a donc une bifurcation homocline. De plus, au niveau du foyer instable, on peut observer l'existence d'un petit cycle limite. Celui-ci va disparaître pour $I_{ap} \geq -0.816$.
+\begin{figure}[H]
+	\centering
+
+	\includegraphics[width=0.45\textwidth]{I-0_817bis.png}
+	\includegraphics[width=0.45\textwidth]{I-0_817.png}
+
+	\caption{Portrait de phase lorsque $I_{ap} = -0.817$ }
+\end{figure}
+
+Lorsqu'on a $I_{ap} = -0.5$, on n'a plus de cycle limite au niveau du foyer et de bifurcation homocline.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{I-0_5.png}
+	\caption{Portrait de phase lorsque $I_{ap} = -0.5$ }
+\end{figure}
+
+Pour $I_{ap} = -0.008$, on a réapparition d'une bifurcation homocline, on peut observer sur la figure ci-dessous, que les variétés du col se superposent. Par ailleurs, on a aussi la réapparition d'un cycle limite, celui-ci va s'agrandir jusqu'à un certain point puis disparaitre  :
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{I-0_008bis.png}
+	\includegraphics[width=0.5\textwidth]{I-0_008.png}
+	\caption{Portrait de phase lorsque $I_{ap} = -0.008$ }
+\end{figure}
+
+Le cycle limite disparait aux alentours de  $I_{ap}=11,5$ et créer un foyer stable, ce foyer devient ensuite un noeud stable $I_{ap}=55,26$.
+
+\subsubsection{Résumé pour $c=1$}
+
+\begin{tabular}{|C{4.5cm} | C{2.2cm} | C{8cm}  |}
+\hline
+\rowcolor{maroon}
+Valeur de $I_{ap}$ & Nombre de points stat & Caractérisation des points \\
+\rowcolor{maroon!10}
+$I_{ap} \in [-2, -1[$ & 1 & noeud stable \\
+\rowcolor{maroon!50}
+$I_{ap} = -1$ & 2 & \textcolor{white}{\textbf{Bifurcation pli}} \newline noeud stable et \textbf{col-noeud} \\
+\rowcolor{maroon!10}
+$I_{ap} \in [-1, -0.9972[$ & 3 & noeud stable, \textbf{col} et \textbf{noeud stable} \\\hline
+\rowcolor{maroon!10}
+$I_{ap} \in [-0.9972, -0.9265[$ & 3 & noeud stable, col et \textbf{foyer stable} \\
+\rowcolor{maroon!50}
+$I_{ap} \approx -0.9265$ &
+\multicolumn{2}{c|}{\textcolor{white}{\textbf{Bifurcation Hopf}}} \\
+\rowcolor{maroon!10}
+$I_{ap} \in [-0.9265, -0.8161[$ & 3 & noeud stable, col, \textbf{foyer instable} et \textbf{cycle limite stable} \\\hline
+\rowcolor{maroon!50}
+$I_{ap} \approx -0.8161$ & \multicolumn{2}{c|}{\textcolor{white}{\textbf{Bifurcation homocline}}} \\
+\rowcolor{maroon!10}
+$I_{ap} \in [-0.8161, -0.08560[$ & 3 & noeud stable, col et \textbf{foyer instable}\\\hline
+\rowcolor{maroon!50}
+$I_{ap} \approx -0.08560$ & \multicolumn{2}{c|}{\textcolor{white}{\textbf{Bifurcation Homocline}}} \\
+\rowcolor{maroon!10}
+$I_{ap} \in [-0.08560, 5/27[$ & 3 &  noeud stable, col, foyer instable et \textbf{cycle limite stable}\\
+\rowcolor{maroon!50}
+$I_{ap} = 5/27$ & 2 & \textcolor{white}{\textbf{Bifurcation pli}} \newline foyer instable, cycle limite stable et \textbf{col-noeud} \\
+\rowcolor{maroon!10}
+$I_{ap} \in ]5/27, 10]$ & 1 &  foyer instable et cycle limite stable\\\hline
+\end{tabular}
+\vspace*{0,3cm}
+
+Le système possède des régions de bistabilité :
+\begin{itemize}
+\item Pour $I_{ap} \in ]-1, -0,9262[$ avec 2 points stables,
+\item Pour $I_{ap} \in ]-0,9262, -0,8161[$ avec 1 point stable et un cycle limite
+\item Pour  $I_{ap} \in ] -0,008560, 5/27[$ avec 1 point stable et un cycle limite stable
+\end{itemize}
+
+\printbibliography
 
 \end{document}

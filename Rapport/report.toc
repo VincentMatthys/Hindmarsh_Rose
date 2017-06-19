@@ -1,26 +1,83 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {french}
-\contentsline {section}{\numberline {1}Fichier \IeC {\'e}quations}{3}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Etude th\IeC {\'e}orique}{3}{section.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {a}Recherche des nullclines}{3}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {a.1}R\IeC {\'e}solution par la m\IeC {\'e}thode de Cardan}{3}{subsubsection.1.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {a.1.1}$\Delta _1 > 0$}{4}{paragraph.1.1.1.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {a.1.2}$\Delta _1 = 0$}{5}{paragraph.1.1.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {a.1.3}$\Delta _1 < 0$}{5}{paragraph.1.1.1.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {a.2}R\IeC {\'e}sultats}{6}{subsubsection.1.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {b}Stabilit\IeC {\'e} et bifurcations}{7}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {b.1}Matrice Jacobienne du syst\IeC {\`e}me}{7}{subsubsection.1.2.1}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {b.2}Expression des valeurs propres}{8}{subsubsection.1.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {b.3}Condition pour avoir des valeurs propres complexes conjugu\IeC {\'e}es}{8}{subsubsection.1.2.3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {b.4}Condition alg\IeC {\'e}brique pour une bifurcation pli}{8}{subsubsection.1.2.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {b.4.1}Interpr\IeC {\'e}tation avec le diagramme de bifurcation $v_0=f(I_{ap})$}{9}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {b.4.2}Interpr\IeC {\'e}tation avec le diagramme de bifurcation $I_{ap}= f(v_0)$}{10}{figure.caption.7}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {b.5}Condition alg\IeC {\'e}brique pour une bifurcation de Hopf}{10}{subsubsection.1.2.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {b.6}R\IeC {\'e}sum\IeC {\'e} des stabilit\IeC {\'e}s et des bifurcations}{11}{subsubsection.1.2.6}
-\contentsline {subsection}{\numberline {c}Quelques simulations pour $I_{ap}$ entre -2 et 10}{14}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {c.1}$I_{ap}$ entre -2 et -1}{14}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {c.2}\IeC {\`A} $I_{ap}=-1$}{14}{subsubsection.1.3.2}
-\contentsline {subsubsection}{\numberline {c.3}$I_{ap}$ entre -1 et -0.5672}{15}{subsubsection.1.3.3}
-\contentsline {subsubsection}{\numberline {c.4}$I_{ap}$ entre -0.5672 et 0.185}{15}{subsubsection.1.3.4}
-\contentsline {subsubsection}{\numberline {c.5}\IeC {\`A} $I_{ap}=0.185$}{15}{subsubsection.1.3.5}
-\contentsline {subsubsection}{\numberline {c.6}$I_{ap}$ entre 0.185 et 7.9}{16}{subsubsection.1.3.6}
-\contentsline {subsubsection}{\numberline {c.7}$I_{ap}$ entre 7.9 et 10}{16}{subsubsection.1.3.7}
-\contentsline {subsection}{\numberline {d}Pour r\IeC {\'e}sumer}{17}{subsection.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Simulations num\IeC {\'e}riques}{14}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {a}Pour $c=2$}{14}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {a.1}Simulations pour $I_{ap}$ entre -2 et 10}{14}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.1}$I_{ap}$ entre -2 et -1}{14}{paragraph.2.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.2}\IeC {\`A} $I_{ap}=-1$}{14}{paragraph.2.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.3}$I_{ap}$ entre -1 et -0.5672}{14}{paragraph.2.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.4}$I_{ap}$ entre -0.5672 et 0.185}{15}{paragraph.2.1.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.5}\IeC {\`A} $I_{ap}=0.185$}{15}{paragraph.2.1.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.6}$I_{ap}$ entre 0.185 et 7.9}{15}{paragraph.2.1.1.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {a.1.7}$I_{ap}$ entre $7.9001$ et $10$}{16}{paragraph.2.1.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {a.2}R\IeC {\'e}sum\IeC {\'e} pour $c=2$}{17}{subsubsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {b}Pour $c=1$}{18}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {b.1}Simulations num\IeC {\'e}riques pour $I_{ap}$ entre $-2$ et $10$}{18}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.1}Pour $I_{ap}$ entre -2 et -1}{18}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.2}\IeC {\`A} $I_{ap}=-1$}{18}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.3}Pour $I_{ap}$ entre -1 et -0.9265}{19}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.4}Pour $I_{ap}$ entre -0.9265 et -0.8161}{20}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.5}\IeC {\`A} $I_{ap} \approx -0.8161$}{20}{paragraph.2.2.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.6}Pour $I_{ap}$ entre -0.8161 et -0.08560}{20}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.7}\IeC {\`A} $I_{ap} \approx -0.08560$}{20}{paragraph.2.2.1.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.8}Pour $I_{ap}$ entre -0.08560 et 0.1852}{21}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.9}\IeC {\`A} $I_{ap} \approx 0.1852$}{21}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {b.1.10}Pour $I_{ap}$ entre 0.1852 et 10}{22}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {b.2}R\IeC {\'e}sum\IeC {\'e} pour $c=1$}{24}{subsubsection.2.2.2}

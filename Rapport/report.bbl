@@ -1,0 +1,70 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{holmes200286}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c75ba7b1e901540dd0fb303aedfba780}{%
+           family={Holmes},
+           family_i={H\bibinitperiod},
+           given={GC},
+           given_i={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c75ba7b1e901540dd0fb303aedfba780}
+      \strng{fullhash}{c75ba7b1e901540dd0fb303aedfba780}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Mathematical Gazette}
+      \field{number}{507}
+      \field{title}{86.70 The Use of Hyperbolic Cosines in Solving Cubic Polynomials}
+      \field{volume}{86}
+      \field{year}{2002}
+      \field{pages}{473\bibrangedash 477}
+      \range{pages}{5}
+    \endentry
+    \entry{zwillinger2011crc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3b36e79115e11a7fb3f82dd999ac6e54}{%
+           family={Zwillinger},
+           family_i={Z\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{3b36e79115e11a7fb3f82dd999ac6e54}
+      \strng{fullhash}{3b36e79115e11a7fb3f82dd999ac6e54}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CRC standard mathematical tables and formulae}
+      \field{year}{2011}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
