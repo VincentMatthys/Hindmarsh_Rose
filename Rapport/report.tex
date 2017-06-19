@@ -541,7 +541,7 @@ On compte 3 points stationnaires.
 \caption{Plan de phase $w=f(v)$, trois points stationnaires et un cycle limite stable.}
 \end{figure}
 
-\paragraph{À $I_{ap}=0.185$}
+\paragraph{À $I_{ap} \approx 0.185$}
 Bifurcation pli, le col et le noeud stable se rejoingne pour ne former qu'un seul point, puis disparaissent.
 \begin{figure}[H]
 \begin{center}
@@ -611,11 +611,9 @@ $I_{ap} \in ]7.9001, 10[$ & 1 &   foyer stable \\\hline
 
 \begin{figure}[H]
 \begin{center}
-	\begin{tabular}{ p{0.5\textwidth}  p{0.5\textwidth} }
-		\includegraphics[ width = 0.5\textwidth]{bif4.png} & \includegraphics[width = 0.5\textwidth]{bif_20.png}
-	\end{tabular}
+	\includegraphics[ width = 0.8\textwidth]{bif4.png}
 \end{center}
-\caption{A gauche : diagramme de bifurcation théorique (la famille de cycle limite n'est pas représentée). A droite : diagramme de bifurcation obtenu par continuation avec \texttt{XXP-aut}}
+\caption{A gauche : diagramme de bifurcation théorique (la famille de cycle limite n'est pas représentée). Le diagramme de bifurcation obtenu par continuation avec \texttt{XXP-aut} a déjà été présenté en figure \ref{fig_res_c_2}}
 \end{figure}
 
 
@@ -638,7 +636,7 @@ Les bifurcations plis observées pour $c=2$ restent inchangées mais les bifurca
 \subsubsection{Simulations numériques pour $I_{ap}$ entre $-2$ et $10$}
 
 \paragraph{Pour $I_{ap}$ entre -2 et -1}
-
+On commence avec un noeud stable. La nullcline pour $v$ se rapproche du sommet de la nullcline de $w$ quand $I_{ap}$ augmente.
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[ width = 0.7\textwidth]{3I-1_15.png}
@@ -647,7 +645,7 @@ Les bifurcations plis observées pour $c=2$ restent inchangées mais les bifurca
 \end{figure}
 
 \paragraph{À $I_{ap}=-1$}
-
+Pour cette valeur de $I_{ap}$ les deux nullclines coïncident au point du sommet de la nullcline pour $w$, et on a apparition d'un col noeud : c'est la première bifurcation pli.
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[ width = 0.7\textwidth]{I-1.png}
@@ -657,7 +655,7 @@ Les bifurcations plis observées pour $c=2$ restent inchangées mais les bifurca
 
 
 \paragraph{Pour $I_{ap}$ entre -1 et -0.9265}
-
+Après la bifurcation pli, il y a 2 attracteurs, 1 noeud stable, et un autre noeud stable isssu de la bifurcation pli qui devient foyer stable. Les bassins d'attraction de ces deux attracteurs sont séparés par la variété instable du col.
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{p{0.5\textwidth}  p{0.5\textwidth}}
@@ -667,15 +665,15 @@ Les bifurcations plis observées pour $c=2$ restent inchangées mais les bifurca
 \includegraphics[ width = 0.5\textwidth]{I-0_94Bis.png} \\
 \end{tabular}
 \end{center}
-\caption{Plan de phase $w=f(v)$}
+\caption{Plan de phase $w=f(v)$. 2 attracteurs séparés par un col. En haut : pour $I_{ap} = -0.9971$ le noeud stable se transforme en foyer stable. En bas : naissance d'un cycle limite par bifurcation de Hopf. A droite, grossissement du plan de phase autour du nouvel attracteur.}
 \end{figure}
 
 
 \paragraph{Pour $I_{ap}$ entre -0.9265 et -0.8161}
-
+Le foyer stable est devenu instable, et il naît un cycle limite stable par bifurcation de Hopf. Celui-ci grandit jusqu'à rencontrer le col.
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[ width = 0.7\textwidth]{I8-0_82.png}
+	\includegraphics[ width = 0.7\textwidth]{8I-0_82.png}
 	\end{center}
 \caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.82$ : 1 noeud stable, un col, un foyer instable et un cycle limite stable}
 \end{figure}
@@ -683,7 +681,7 @@ Les bifurcations plis observées pour $c=2$ restent inchangées mais les bifurca
 
 \paragraph{À $I_{ap} \approx -0.8161$}
 
-La variété instable du col rejoint la variété stable
+La variété instable du col rejoint la variété stable en s'enroulant autour du cycle limite, et ce dernier disparaît par bifurcation homocline.
 
 \begin{figure}[H]
 \begin{center}
@@ -692,10 +690,11 @@ La variété instable du col rejoint la variété stable
 \includegraphics[ width = 0.5\textwidth]{I-0_816Ter.png}
 \end{tabular}
 \end{center}
-\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.816$}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.816$. La variété instable du col (en bleu) s'enroule au tour du cycle limite jusqu'à rejoindre la variété stable.}
 \end{figure}
 
 \paragraph{Pour $I_{ap}$ entre -0.8161 et -0.08560}
+Il y a perte de bistabilité, et du deuxième bassin d'attraction. Le seul attracteur est donc le noeud stable initial. Toute condition initiale en dehors de l'enroulement de la variété instable du col rejoint le noeud en moins d'un tour. A l'inverse, toute condition initiale à l'intérieur de l'enroulement effecteur au moins un tour dans le plan de phase autour du foyer.
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[ width = 0.7\textwidth]{I-0_5.png}
@@ -704,15 +703,16 @@ La variété instable du col rejoint la variété stable
 \end{figure}
 
 \paragraph{À $I_{ap} \approx -0.08560$}
-La variété instable du col rejoint la variété stable.
+La variété instable du col rejoint la variété stable. Naissance d'un cycle limite par bifurcation homocline.
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[width = 0.7\textwidth]{I-0_08.png}
 	\end{center}
-\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.08$ : 1 noeud stable, un col, et un foyer instable}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = -0.0856$. La variété instable du col, en bleu, rejoint la variété stable en s'enroulant autour d'un cycle.}
 \end{figure}
 
 \paragraph{Pour $I_{ap}$ entre -0.08560 et 0.1852}
+Le cycle limite grossit, et le col se rapproche du noeud stable
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[width = 0.7\textwidth]{I0.png}
@@ -721,14 +721,16 @@ La variété instable du col rejoint la variété stable.
 \end{figure}
 
 \paragraph{À $I_{ap} \approx 0.1852$}
+Le col est le noeud se rejoignent et disparaissent par bifurcation pli.
 \begin{figure}[H]
 	\begin{center}
-	\includegraphics[width = 0.7\textwidth]{I0.png}
+	\includegraphics[width = 0.7\textwidth]{I0_185.png}
 	\end{center}
-\caption{Plan de phase $w=f(v)$ pour $I_{ap} = 0$ : 1 noeud stable, un col, un foyer instable et un cycle limite stable}
+\caption{Plan de phase $w=f(v)$ pour $I_{ap} = 0.185$ : 1 noeud stable, un col, un foyer instable et un cycle limite stable}
 \end{figure}
 
 \paragraph{Pour $I_{ap}$ entre 0.1852 et 10}
+Le cycle limite grossit puis rétrécit. Il ne disparaît pas dans cet intervalle.
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{p{0.5\textwidth}  p{0.5\textwidth}}
@@ -738,37 +740,10 @@ La variété instable du col rejoint la variété stable.
 \includegraphics[ width = 0.5\textwidth]{19I10.png} \\
 \end{tabular}
 \end{center}
-\caption{Plan de phase $w=f(v)$}
+\caption{Plan de phase $w=f(v)$ pour des valeurs de $I_{ap}$ respectives de 0.5, 2, 5.5, et 10. Un seul point stationnaire, foyer instable et un seul attracteur, un cycle limite.}
 \end{figure}
 
-
-
-Pour $I_{ap} = -0.817$, on peut voir dans la figure ci-dessous, à gauche, que les variétés stables et instable du col se superposent, on a donc une bifurcation homocline. De plus, au niveau du foyer instable, on peut observer l'existence d'un petit cycle limite. Celui-ci va disparaître pour $I_{ap} \geq -0.816$.
-\begin{figure}[H]
-	\centering
-
-	\includegraphics[width=0.45\textwidth]{I-0_817bis.png}
-	\includegraphics[width=0.45\textwidth]{I-0_817.png}
-
-	\caption{Portrait de phase lorsque $I_{ap} = -0.817$ }
-\end{figure}
-
-Lorsqu'on a $I_{ap} = -0.5$, on n'a plus de cycle limite au niveau du foyer et de bifurcation homocline.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{I-0_5.png}
-	\caption{Portrait de phase lorsque $I_{ap} = -0.5$ }
-\end{figure}
-
-Pour $I_{ap} = -0.008$, on a réapparition d'une bifurcation homocline, on peut observer sur la figure ci-dessous, que les variétés du col se superposent. Par ailleurs, on a aussi la réapparition d'un cycle limite, celui-ci va s'agrandir jusqu'à un certain point puis disparaitre  :
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{I-0_008bis.png}
-	\includegraphics[width=0.5\textwidth]{I-0_008.png}
-	\caption{Portrait de phase lorsque $I_{ap} = -0.008$ }
-\end{figure}
-
-Le cycle limite disparait aux alentours de  $I_{ap}=11,5$ et créer un foyer stable, ce foyer devient ensuite un noeud stable $I_{ap}=55,26$.
+Le cycle limite disparait aux alentours de  $I_{ap}=11,5$, valeur pour laquelle le foyer redevient stable. Celui-ci se transforme ensuite un noeud stable pour $I_{ap}=55,26$.
 
 \subsubsection{Résumé pour $c=1$}
 
@@ -804,12 +779,51 @@ $I_{ap} \in ]5/27, 10]$ & 1 &  foyer instable et cycle limite stable\\\hline
 \end{tabular}
 \vspace*{0,3cm}
 
-Le système possède des régions de bistabilité :
+Le système possède des régions de bistabilité, comme présenté en figure \ref{fig_res_c_1}
 \begin{itemize}
 \item Pour $I_{ap} \in ]-1, -0,9262[$ avec 2 points stables,
 \item Pour $I_{ap} \in ]-0,9262, -0,8161[$ avec 1 point stable et un cycle limite
 \item Pour  $I_{ap} \in ] -0,008560, 5/27[$ avec 1 point stable et un cycle limite stable
 \end{itemize}
+
+\section{Système à 3D et bursting}
+\subsection{Obtention du bursting}
+Comme proposé dans l'article fondateur du nodèle \cite{hindmarsh1984model}, une troisième équation est introduite, transformant $I_{ap}$ en variable lente à l'aide d'un nouveau paramètre $\epsilon$.
+\begin{equation}
+\left\{
+\begin{array}{l }
+v'(t)= (w - v^3 + 3v^2 +I_{ap})/c = f(v,w) \\
+w'(t) = 1 - 5 v^2 - w = g(v,w)  \\
+\textcolor{blue}{I_{ap}'(t)= \epsilon (0.3 I_{ap} -1 -v)}
+\end{array}
+\right.
+\label{sys_burst}
+\end{equation}
+Dans ce nouveau système \ref{sys_burst}, $(v, w)$ forme un sous-système rapide, qui a été etudié. Que ce soit pour $c=2$ ou $c=1$, il présente des zones de multistabilité.
+
+De plus, si on considère comme établit le régime stationnaire c'est-à-dire que $v$ a atteint un état stationnaire $v_0$ alors on peut utiliser l'équation \ref{Stat} pour la nouvelle équation introduite dans le système :
+$$
+I'_{ap}(t) = \epsilon(0.9v_0^3+0.6v_0^2-v_0-1.3)
+$$
+Il y a trois racines réelles de $I'_{ap} = 0$ :
+$\left\{
+\begin{array}{rl}
+v_1 &\approx -2.64087\\
+v_2 &\approx -1\\
+v_3 &\approx 1.64087\\
+\end{array}
+\right.$
+Ce qui permet le signe de $I'_{ap}$ :
+\begin{center}
+	\begin{tabular}{|L{2.2cm} | C{1.5cm} | C{1.5cm} | C{1.5cm} |C{1.5cm}|C{1.5cm}|C{1.5cm}|C{1.5cm}|}
+	\hline
+	\multicolumn{8}{|c|}{$c \in [1, 2]$}
+	\\\hline
+	Valeur de $v$ & $v < -2.64$ & $v = -2.64$ & $ -2.64 < v < -1$ & $v = -1$ & $-1 < v < 1.64$ & $v=1.64$ & $v > 1.64$ \\
+	 \hline
+	$I'_{ap}$ & -- & 0 & + & 0 & -- & 0 & +\\ \hline
+	\end{tabular}
+\end{center}
 
 \printbibliography
 

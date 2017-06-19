@@ -19,6 +19,36 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{hindmarsh1984model}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b3730e390e12e7f1206c4b9c52e397ef}{%
+           family={Hindmarsh},
+           family_i={H\bibinitperiod},
+           given={James\bibnamedelima L},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=185b7153259fe2edccd61c3d8aa666d2}{%
+           family={Rose},
+           family_i={R\bibinitperiod},
+           given={RM},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{481ab4b1135fe31b5bea0449a8adb9e0}
+      \strng{fullhash}{481ab4b1135fe31b5bea0449a8adb9e0}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London B: Biological Sciences}
+      \field{number}{1222}
+      \field{title}{A model of neuronal bursting using three coupled first order differential equations}
+      \field{volume}{221}
+      \field{year}{1984}
+      \field{pages}{87\bibrangedash 102}
+      \range{pages}{16}
+    \endentry
     \entry{holmes200286}{article}{}
       \name{author}{1}{}{%
         {{hash=c75ba7b1e901540dd0fb303aedfba780}{%
