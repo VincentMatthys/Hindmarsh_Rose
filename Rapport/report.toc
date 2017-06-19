@@ -87,3 +87,5 @@
 \contentsline {subsection}{\numberline {a}Obtention du bursting}{23}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {b}Influence de c sur le type de bursting}{25}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {c}Transition entre $c=2$ et $c=1$}{27}{subsection.3.3}
