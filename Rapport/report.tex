@@ -794,7 +794,7 @@ Comme proposé dans l'article fondateur du nodèle \cite{hindmarsh1984model}, un
 \begin{array}{l }
 v'(t)= (w - v^3 + 3v^2 +I_{ap})/c = f(v,w) \\
 w'(t) = 1 - 5 v^2 - w = g(v,w)  \\
-\textcolor{blue}{I_{ap}'(t)= \epsilon (0.3 I_{ap} -1 -v)}
+I_{ap}'(t)= \epsilon (0.3 I_{ap} -1 -v)
 \end{array}
 \right.
 \label{sys_burst}
@@ -824,6 +824,49 @@ Ce qui permet le signe de $I'_{ap}$ :
 	$I'_{ap}$ & -- & 0 & + & 0 & -- & 0 & +\\ \hline
 	\end{tabular}
 \end{center}
+
+Avec ce tableau de signe, on peut alors déterminer l'exsitence de phénomène d'hystérèse pour $c=2$ et $c=1$ en figue \ref{fig_hysterese} :
+\begin{itemize}
+	\item pour $c=2$ : une bifurcation pli de points stationnaires fait passer, avec $I'_{ap} > 0$ en $I_{ap} = 0$, d'une famille de noeuds stables à une famille de cycles limites stables. Alors $I'_{ap} < 0$ et une bifurcation de Hopf fait repasser de cette famille de cycles à une famille de noeuds stables qui disparait par bifurcation pli de points stationnaires avec $I'_{ap} < 0$ pour retrouver la famille de noeuds stables initiale, avec $I'_{ap} > 0$ en $I_{ap} = -4/3$.
+	\item pour $c=1$ : une bifurcation pli de points stationnaires fait passer, avec $I'_{ap} > 0$ en $I_{ap} = 0$, d'une famille de noeuds stables à une famille de cycles limites stables. Alors $I'_{ap} < 0$ et une bifurcation homocline fait dispaaître la famille de cycles limites pour retomber sur la famille de noeuds stables initiale, avec $I'_{ap} > 0$ en $I'_{ap} \approx -0.1$
+\end{itemize}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width = 0.9\textwidth]{hysterese_c_2.png}
+		\subcaption{Diagramme de bifurcation pour $c=2$ enrichi}
+		\includegraphics[width = 0.9\textwidth]{hysterese_c_1.png}
+		\subcaption{Diagramme de bifurcation pour $c=1$ enrichi}
+	\end{center}
+	\caption{Mise en évidence de phénomène d'hystérèse. Les lignes horizontales en bleu correspondent aux zéros de $I'_{ap} = 0$. Les flèches roses correspondent au sens de variation de $I_{ap}$. Les zones violettes correspondent aux phénomènes d'hystérèse}
+	\label{fig_hysterese}
+\end{figure}
+
+Théoriquement, on devrait donc avoir un bursting pour $c=2$ compris pour $I_{ap} \in [-1, 0]$ et, pour $c=1$ entre $I_{ap} \in [-0.1, 0]$.
+
+\subsection{Influence de c sur le type de bursting}
+
+En ne s'intéressant qu'à la trace en temps de $I_{ap}$ en figure \ref{fig_trace_iap}, on remarque que l'amplitude des oscillations de $I_{ap}$ est 4 fois plus importante pour $c=2$ que pour $c=1$, et que la fréquence d'oscillations est 2 fois plus élevée pour $c=1$.
+
+\begin{figure}[H]
+	\begin{center}
+		\begin{tabular}{p{0.5\textwidth}  p{0.5\textwidth}}
+			\includegraphics[width = 0.7\linewidth, angle = 270]{Iap_c_2.png}\subcaption{Pour $c=2$} & \includegraphics[width = 0.7\linewidth, angle = 270]{Iap_c_1.png}\subcaption{Pour $c=1$}
+		\end{tabular}
+	\end{center}
+	\caption{Trace en temps de $I_{ap}$ sur $20000$ secondes, avec $\epsilon = 0.01$}
+	\label{fig_trace_iap}
+\end{figure}
+
+Si on superpose le diagramme de bifurcation du sous-système rapide $(v,w)$ avec $v=f(I_{ap})$ pour chaque valeur de $c$, on obtient la figure \ref{super_diag}.
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width = 0.9\linewidth]{superpositionC1.png}\subcaption{Pour $c=2$} \includegraphics[width = 0.9\linewidth]{superpositionC2.png}\subcaption{Pour $c=1$}
+	\end{center}
+	\caption{Superposition du diagramme de bifurcation du sous-système rapide et de $v=f(I_{ap})$ avec $\epsilon = 0.01$. Les simulations ont été faites avec \texttt{XPP-aut}.}
+	\label{super_diag}
+\end{figure}
 
 \printbibliography
 

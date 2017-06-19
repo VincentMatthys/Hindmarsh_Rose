@@ -85,3 +85,5 @@
 \contentsline {section}{\numberline {3}Syst\IeC {\`e}me \IeC {\`a} 3D et bursting}{23}{section.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {a}Obtention du bursting}{23}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {b}Influence de c sur le type de bursting}{25}{subsection.3.2}
