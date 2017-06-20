@@ -18,7 +18,137 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global/}
+  \sortlist[entry]{none/global/}
+    \entry{hodgkin1952quantitative}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2d431cbefa844616ace34344773b12a4}{%
+           family={Hodgkin},
+           family_i={H\bibinitperiod},
+           given={Alan\bibnamedelima L},
+           given_i={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=05ec64db08e6a30baaadb6f9656ddd0e}{%
+           family={Huxley},
+           family_i={H\bibinitperiod},
+           given={Andrew\bibnamedelima F},
+           given_i={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{af7085a23cb19b7b6fa7ab351ccdb7b2}
+      \strng{fullhash}{af7085a23cb19b7b6fa7ab351ccdb7b2}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of physiology}
+      \field{number}{4}
+      \field{title}{A quantitative description of membrane current and its application to conduction and excitation in nerve}
+      \field{volume}{117}
+      \field{year}{1952}
+      \field{pages}{500}
+      \range{pages}{1}
+    \endentry
+    \entry{fitzhugh1961impulses}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d5f139228c01bc378e792449647ee62c}{%
+           family={FitzHugh},
+           family_i={F\bibinitperiod},
+           given={Richard},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d5f139228c01bc378e792449647ee62c}
+      \strng{fullhash}{d5f139228c01bc378e792449647ee62c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biophysical journal}
+      \field{number}{6}
+      \field{title}{Impulses and physiological states in theoretical models of nerve membrane}
+      \field{volume}{1}
+      \field{year}{1961}
+      \field{pages}{445\bibrangedash 466}
+      \range{pages}{22}
+    \endentry
+    \entry{hindmarsh1982model}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0dcef7dd4283ca4f7d8744f7a7b9e0a7}{%
+           family={Hindmarsh},
+           family_i={H\bibinitperiod},
+           given={JL},
+           given_i={J\bibinitperiod}}}%
+        {{hash=185b7153259fe2edccd61c3d8aa666d2}{%
+           family={Rose},
+           family_i={R\bibinitperiod},
+           given={RM},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3aeb8f912009ef8c73a3f3a1ef8ef6f8}
+      \strng{fullhash}{3aeb8f912009ef8c73a3f3a1ef8ef6f8}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{5853}
+      \field{title}{A model of the nerve impulse using two first-order differential equations}
+      \field{volume}{296}
+      \field{year}{1982}
+      \field{pages}{162\bibrangedash 164}
+      \range{pages}{3}
+    \endentry
+    \entry{zwillinger2011crc}{book}{}
+      \name{author}{1}{}{%
+        {{hash=3b36e79115e11a7fb3f82dd999ac6e54}{%
+           family={Zwillinger},
+           family_i={Z\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC press}%
+      }
+      \strng{namehash}{3b36e79115e11a7fb3f82dd999ac6e54}
+      \strng{fullhash}{3b36e79115e11a7fb3f82dd999ac6e54}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CRC standard mathematical tables and formulae}
+      \field{year}{2011}
+    \endentry
+    \entry{holmes200286}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c75ba7b1e901540dd0fb303aedfba780}{%
+           family={Holmes},
+           family_i={H\bibinitperiod},
+           given={GC},
+           given_i={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c75ba7b1e901540dd0fb303aedfba780}
+      \strng{fullhash}{c75ba7b1e901540dd0fb303aedfba780}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Mathematical Gazette}
+      \field{number}{507}
+      \field{title}{86.70 The Use of Hyperbolic Cosines in Solving Cubic Polynomials}
+      \field{volume}{86}
+      \field{year}{2002}
+      \field{pages}{473\bibrangedash 477}
+      \range{pages}{5}
+    \endentry
     \entry{hindmarsh1984model}{article}{}
       \name{author}{2}{}{%
         {{hash=b3730e390e12e7f1206c4b9c52e397ef}{%
@@ -37,8 +167,8 @@
       }
       \strng{namehash}{481ab4b1135fe31b5bea0449a8adb9e0}
       \strng{fullhash}{481ab4b1135fe31b5bea0449a8adb9e0}
-      \field{sortinit}{H}
-      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Royal Society of London B: Biological Sciences}
@@ -48,51 +178,6 @@
       \field{year}{1984}
       \field{pages}{87\bibrangedash 102}
       \range{pages}{16}
-    \endentry
-    \entry{holmes200286}{article}{}
-      \name{author}{1}{}{%
-        {{hash=c75ba7b1e901540dd0fb303aedfba780}{%
-           family={Holmes},
-           family_i={H\bibinitperiod},
-           given={GC},
-           given_i={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {JSTOR}%
-      }
-      \strng{namehash}{c75ba7b1e901540dd0fb303aedfba780}
-      \strng{fullhash}{c75ba7b1e901540dd0fb303aedfba780}
-      \field{sortinit}{H}
-      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Mathematical Gazette}
-      \field{number}{507}
-      \field{title}{86.70 The Use of Hyperbolic Cosines in Solving Cubic Polynomials}
-      \field{volume}{86}
-      \field{year}{2002}
-      \field{pages}{473\bibrangedash 477}
-      \range{pages}{5}
-    \endentry
-    \entry{zwillinger2011crc}{book}{}
-      \name{author}{1}{}{%
-        {{hash=3b36e79115e11a7fb3f82dd999ac6e54}{%
-           family={Zwillinger},
-           family_i={Z\bibinitperiod},
-           given={Daniel},
-           given_i={D\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {CRC press}%
-      }
-      \strng{namehash}{3b36e79115e11a7fb3f82dd999ac6e54}
-      \strng{fullhash}{3b36e79115e11a7fb3f82dd999ac6e54}
-      \field{sortinit}{Z}
-      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{CRC standard mathematical tables and formulae}
-      \field{year}{2011}
     \endentry
   \endsortlist
 \endrefsection

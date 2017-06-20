@@ -1,14 +1,14 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'report.blg'
-[50] biber-darwin:290> INFO - === Tue Jun 20, 2017, 01:37:36
-[73] Biber.pm:351> INFO - Reading 'report.bcf'
-[176] Biber.pm:776> INFO - Found 3 citekeys in bib section 0
-[192] Biber.pm:3493> INFO - Processing section 0
-[207] Biber.pm:3657> INFO - Looking for bibtex format file 'biblio.bib' for section 0
-[208] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[208] bibtex.pm:1048> INFO - Found BibTeX data source 'biblio.bib'
-[226] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[226] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[226] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'fr-FR'
-[230] bbl.pm:526> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[230] bbl.pm:619> INFO - Output to report.bbl
+[64] biber-darwin:290> INFO - === Tue Jun 20, 2017, 11:20:27
+[88] Biber.pm:351> INFO - Reading 'report.bcf'
+[194] Biber.pm:776> INFO - Found 6 citekeys in bib section 0
+[211] Biber.pm:3493> INFO - Processing section 0
+[229] Biber.pm:3657> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[231] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[231] bibtex.pm:1048> INFO - Found BibTeX data source 'biblio.bib'
+[253] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[253] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[253] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'fr-FR'
+[259] bbl.pm:526> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[260] bbl.pm:619> INFO - Output to report.bbl

@@ -175,12 +175,19 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex-science/science.bbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex-science/science.bbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex-science/science.cbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex-science/science.cbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
@@ -220,6 +227,7 @@ OUTPUT report.bcf
 INPUT report.bbl
 INPUT report.bbl
 INPUT report.bbl
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -542,7 +550,6 @@ INPUT ../images/bif_12.png
 INPUT ../images/bif_12.png
 INPUT ../images/bif_10.png
 INPUT ../images/bif_10.png
-INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out

@@ -25,7 +25,7 @@
 %\usepackage[dvipsnames]{xcolor}
 
 % ------------------------- Bilbiographie --------------------------------------
-\usepackage[backend=biber]{biblatex}
+\usepackage[backend=biber, style=science]{biblatex}
 \addbibresource{biblio.bib}
 % ------------------------------------------------------------------------------
 
@@ -96,6 +96,11 @@ Vincent Matthys, Maureen Muscat et Mariène Wan
 
 \newpage
 
+\section{Introduction historique}
+
+
+Plusieurs simplifications au modèle de Hodgkin-Huxley \cite{hodgkin1952quantitative} ont été proposées, de par sa complexité en termes d'équations et de paramètres, afin de pouvoir intégrer un tel modèle lors de la modélisation de réseaux de neurones. Fitzhugh a proposé un modèle \cite{fitzhugh1961impulses} à deux équations pour le système lent qui ne peut cependant pas avoir une largeur de potentiel d'action très différente de la durée de la phase quiescente. Pour y remédier, Hindmarsh et Rose ont introduit cette flexibilité \cite{hindmarsh1982model} en dessinant dans le plan de phase des nullclines très voisines autour d'une bifurcation pli.
+
 \section{Etude théorique}
 
 
@@ -154,8 +159,6 @@ On peut alors résoudre l'équation \ref{eqCadran} par la méthode de Cardan :
 \Delta_1 &= -I_{ap}^2 - \frac{22}{27}I_{ap} + \frac{5}{27} \nonumber\\
 \Delta_1 &= -(I_{ap} + 1)(I_{ap} - \frac{5}{27})
 \end{align}
-
-\newpage
 
 Suivant cette méthode :
 \begin{itemize}
@@ -875,7 +878,7 @@ Les observations sur la trace en temps de la figure \ref{fig_trace_iap} prennent
 
 \subsection{Transition entre $c=2$ et $c=1$}
 
-Afin d'établir plus finement le lien entre $c$ et le type de bursting obtenu, on s'intéresse à la transition entre les deux types de bursting observés pour $c=2$ et pour $c=1$. Les résultats de la simulation par \texttt{XPP-aut} sont présentés en figure \ref{fig_transition}. Quant $c$ diminue, l'amplitude de bursting augmente. La fréquence de bursting, d'abord à peu près contante pour $c=2$ autour de $1=2\pi$ diminue. Cette diminution apparaît comme un minimum global de la fréquence qui tire vers le bas le profil entier de la fréquence en fonction de $I_{ap}$, jusqu'à atteindre 0 pour $c=1.2$ Avant cette valeur de c, on avait un profil de bursting semblable à celui de $c=2$, de type fold/Hopf. Après $c=1.2.$ on a un profil semblable à celui pour $c=1$ et un bursting square-wave. L'annulation de la fréquence de bursting est anonciateur de la bifurcation homocline, qui a pour paticularité de faire apparaître un cycle limite dont la fréquence est nulle.
+Afin d'établir plus finement le lien entre $c$ et le type de bursting obtenu, on s'intéresse à la transition entre les deux types de bursting observés pour $c=2$ et pour $c=1$. Les résultats de la simulation par \texttt{XPP-aut} sont présentés en figure \ref{fig_transition}. Quant $c$ diminue, l'amplitude de bursting augmente. La fréquence de bursting, d'abord à peu près contante pour $c=2$ autour de $1/2\pi$ diminue. Cette diminution apparaît comme un minimum global de la fréquence qui tire vers le bas le profil entier de la fréquence en fonction de $I_{ap}$, jusqu'à atteindre 0 pour $c=1.2$ Avant cette valeur de c, on a un profil de bursting semblable à celui de $c=2$, de type fold/Hopf. Après $c=1.2.$ on a un profil semblable à celui pour $c=1$ et un bursting square-wave. L'annulation de la fréquence de bursting est anonciateur de la bifurcation homocline, qui a pour paticularité de faire apparaître un cycle limite dont la fréquence est nulle.
 
 
 \begin{figure}[htb]
@@ -960,14 +963,19 @@ En définitif, le diagramme de bifurcation présente une bifurcation de bifurcat
 \begin{figure}[htb]
 	\begin{center}
 		\begin{tabular}{p{0.5\textwidth} p{0.5\textwidth}}
-			\includegraphics[width = 0.5\textwidth]{bif_20.png}\subcaption{Pour $c = 2$} & \includegraphics[width = 0.5\textwidth]{bif_18.png}\subcaption{Pour $c = 1.8$} \\
-			\includegraphics[width = 0.5\textwidth]{bif_16.png}\subcaption{Pour $c = 1.6$} & \includegraphics[width = 0.5\textwidth]{bif_14.png}\subcaption{Pour $c = 1.4$} \\
-			\includegraphics[width = 0.5\textwidth]{bif_12.png}\subcaption{Pour $c = 1.2$} & \includegraphics[width = 0.5\textwidth]{bif_10.png}\subcaption{Pour $c = 1$}
+			\includegraphics[width = 0.5\textwidth]{bif_20.png}\subcaption{Pour $c = 2$} &
+			\includegraphics[width = 0.5\textwidth]{bif_18.png}\subcaption{Pour $c = 1.8$} \\
+			\includegraphics[width = 0.5\textwidth]{bif_16.png}\subcaption{Pour $c = 1.6$} &
+			\includegraphics[width = 0.5\textwidth]{bif_14.png}\subcaption{Pour $c = 1.4$} \\
+			\includegraphics[width = 0.5\textwidth]{bif_12.png}\subcaption{Pour $c = 1.2$ : apparition d'une bifurcation homocline} &
+			\includegraphics[width = 0.5\textwidth]{bif_10.png}\subcaption{Pour $c = 1$ : deux bifurcations homoclines}
 		\end{tabular}
-		\caption{Evolution du diagramme de bifurcation en fonction de $c$.}
+		\caption{Evolution du diagramme de bifurcation en fonction de $c$ et mise en évidence de la bifurcation de bifurcations homoclines.}
 		\label{fig_conclusion}
 	\end{center}
 \end{figure}
+
+
 
 \printbibliography
 
