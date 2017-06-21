@@ -17,3 +17,6 @@ Pour les sources .ode utilisées avec *XPP-Aut*, dans le dossier ```sources_XPPa
 
 ## Bonus mathematica
 Pour le calcul formel, un notebook Mathematica traîne dans la racine du repo
+
+## License
+Attribution-ShareAlike 4.0 International
