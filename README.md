@@ -14,3 +14,6 @@ Pour les figures, dans le dossier ```images```
 Pour les videos, dans le dossier ```videos```
 Pour les articles de Hindmarsh-Rose, dans le dossier ```articles```
 Pour les sources .ode utilisées avec *XPP-Aut*, dans le dossier ```sources_XPPaut```
+
+## Bonus mathematica
+Pour le calcul formel, un notebook Mathematica traîne dans la racine du repo
