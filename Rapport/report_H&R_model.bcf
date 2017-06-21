@@ -2077,9 +2077,11 @@
     <bcf:citekey order="1">hodgkin1952quantitative</bcf:citekey>
     <bcf:citekey order="2">fitzhugh1961impulses</bcf:citekey>
     <bcf:citekey order="3">hindmarsh1982model</bcf:citekey>
-    <bcf:citekey order="4">zwillinger2011crc</bcf:citekey>
-    <bcf:citekey order="5">holmes200286</bcf:citekey>
-    <bcf:citekey order="6">hindmarsh1984model</bcf:citekey>
+    <bcf:citekey order="4">hindmarsh1984model</bcf:citekey>
+    <bcf:citekey order="5">zwillinger2011crc</bcf:citekey>
+    <bcf:citekey order="6">holmes200286</bcf:citekey>
+    <bcf:citekey order="7">hindmarsh1984model</bcf:citekey>
+    <bcf:citekey order="8">fitzhugh1961impulses</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

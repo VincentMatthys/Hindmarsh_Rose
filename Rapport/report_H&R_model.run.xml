@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>report.bcf</file>
+      <file>report_H&R_model.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>report.bbl</file>
+      <file>report_H&R_model.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,19 +67,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>report</infile>
+      <infile>report_H&R_model</infile>
     </cmdline>
     <input>
-      <file>report.bcf</file>
+      <file>report_H&R_model.bcf</file>
     </input>
     <output>
-      <file>report.bbl</file>
+      <file>report_H&R_model.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>report.bbl</file>
+      <file>report_H&R_model.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>report.bcf</file>
+      <file>report_H&R_model.bcf</file>
     </requires>
     <requires type="editable">
       <file>biblio.bib</file>

@@ -104,6 +104,36 @@
       \field{pages}{162\bibrangedash 164}
       \range{pages}{3}
     \endentry
+    \entry{hindmarsh1984model}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b3730e390e12e7f1206c4b9c52e397ef}{%
+           family={Hindmarsh},
+           family_i={H\bibinitperiod},
+           given={James\bibnamedelima L},
+           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=185b7153259fe2edccd61c3d8aa666d2}{%
+           family={Rose},
+           family_i={R\bibinitperiod},
+           given={RM},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{481ab4b1135fe31b5bea0449a8adb9e0}
+      \strng{fullhash}{481ab4b1135fe31b5bea0449a8adb9e0}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London B: Biological Sciences}
+      \field{number}{1222}
+      \field{title}{A model of neuronal bursting using three coupled first order differential equations}
+      \field{volume}{221}
+      \field{year}{1984}
+      \field{pages}{87\bibrangedash 102}
+      \range{pages}{16}
+    \endentry
     \entry{zwillinger2011crc}{book}{}
       \name{author}{1}{}{%
         {{hash=3b36e79115e11a7fb3f82dd999ac6e54}{%
@@ -148,36 +178,6 @@
       \field{year}{2002}
       \field{pages}{473\bibrangedash 477}
       \range{pages}{5}
-    \endentry
-    \entry{hindmarsh1984model}{article}{}
-      \name{author}{2}{}{%
-        {{hash=b3730e390e12e7f1206c4b9c52e397ef}{%
-           family={Hindmarsh},
-           family_i={H\bibinitperiod},
-           given={James\bibnamedelima L},
-           given_i={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=185b7153259fe2edccd61c3d8aa666d2}{%
-           family={Rose},
-           family_i={R\bibinitperiod},
-           given={RM},
-           given_i={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {The Royal Society}%
-      }
-      \strng{namehash}{481ab4b1135fe31b5bea0449a8adb9e0}
-      \strng{fullhash}{481ab4b1135fe31b5bea0449a8adb9e0}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the Royal Society of London B: Biological Sciences}
-      \field{number}{1222}
-      \field{title}{A model of neuronal bursting using three coupled first order differential equations}
-      \field{volume}{221}
-      \field{year}{1984}
-      \field{pages}{87\bibrangedash 102}
-      \range{pages}{16}
     \endentry
   \endsortlist
 \endrefsection

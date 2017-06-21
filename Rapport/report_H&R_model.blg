@@ -1,0 +1,14 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[5] Config.pm:346> INFO - Logfile is 'report_H&R_model.blg'
+[96] biber-darwin:290> INFO - === Wed Jun 21, 2017, 14:21:04
+[126] Biber.pm:351> INFO - Reading 'report_H&R_model.bcf'
+[227] Biber.pm:776> INFO - Found 6 citekeys in bib section 0
+[271] Biber.pm:3493> INFO - Processing section 0
+[320] Biber.pm:3657> INFO - Looking for bibtex format file 'biblio.bib' for section 0
+[337] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[338] bibtex.pm:1048> INFO - Found BibTeX data source 'biblio.bib'
+[358] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[358] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[359] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'fr-FR'
+[363] bbl.pm:526> INFO - Writing 'report_H&R_model.bbl' with encoding 'UTF-8'
+[364] bbl.pm:619> INFO - Output to report_H&R_model.bbl
