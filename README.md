@@ -1,7 +1,7 @@
 # Hindmarsh_Rose
 First Hindmarsh-Rose model
 
-Projet Modèles Mathématiques et Computationnels en Neurosciences (MMCN), donné par
+Projet Modèles Mathématiques et Computationnels en Neurosciences (MMCN) dans le cursis Master 1 Biomodélisation et bio-informatique de Paris VI.
 
 ## Présentation orale
 La présentation orale telle que donnée le 17/05/2017 à l'université Pierre et Marie Curie devant M. Desorches et M. Sheynikhovich est dans le dossier ```Oral_presentation```
